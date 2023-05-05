@@ -1,0 +1,10 @@
+#Parche de ejemplo 
+
+File(a.txt)
+Output(b.txt)
+
+#Reemplazar el valor en 0x5 con 0x10
+Patch(0x5:0x10)
+
+#Comprobar que el primer caracter es "A"
+Check(0x0:0x41)
